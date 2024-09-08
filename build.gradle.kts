@@ -57,6 +57,10 @@ dependencies {
 
     // swagger api docs
     implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.2")
+
+    // h2 database
+    testImplementation("com.h2database:h2")
+    testImplementation("org.mockito:mockito-core:5.0.0")
 }
 
 kotlin {
