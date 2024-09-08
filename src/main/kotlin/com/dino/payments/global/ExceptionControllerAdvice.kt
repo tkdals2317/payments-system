@@ -1,6 +1,6 @@
 package com.dino.payments.global
 
-import com.dino.payments.exceptions.ExistEmailException
+import com.dino.payments.service.exceptions.ExistEmailException
 import com.dino.payments.global.dto.ErrorMessageModel
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
