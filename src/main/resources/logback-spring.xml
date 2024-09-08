@@ -28,7 +28,6 @@
             <maxHistory>30</maxHistory> <!-- 30일이 지나면 삭제 -->
         </rollingPolicy>
     </appender>
-    <logger name="com.dino.payments" level="DEBUG" />
 
     <springProfile name="local"> <!-- local 환경일 경우 콘솔에서만 로그 출력 -->
         <logger name="com.dino.payments" level="DEBUG" />
